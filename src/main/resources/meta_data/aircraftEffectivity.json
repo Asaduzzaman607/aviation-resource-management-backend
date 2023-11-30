@@ -1,0 +1,34 @@
+{
+  "headerSize": 4,
+  "columnDefinitionList": [
+    {
+      "index": 0,
+      "name": "TaskNo",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 1,
+      "name": "AircraftName",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "list",
+      "dataType": "string"
+    },
+    {
+      "index": 2,
+      "name": "Remark",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 3,
+      "name": "EffectivityType",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "effectivityType"
+    }
+  ]
+}

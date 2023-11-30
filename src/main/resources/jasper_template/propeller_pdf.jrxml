@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_Landscape_3" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="59d7c208-952d-4ada-95a2-ec51e48afdf4">
+    <field name="nomenClature" class="java.lang.String"/>
+    <field name="partNo" class="java.lang.String"/>
+    <field name="serialNo" class="java.lang.String"/>
+    <field name="installationDate" class="java.time.LocalDate"/>
+    <field name="installationTsn" class="java.lang.Long"/>
+    <field name="installationTso" class="java.lang.Long"/>
+    <field name="currentTsn" class="java.lang.Long"/>
+    <field name="currentTso" class="java.lang.Long"/>
+    <field name="limitMonth" class="java.lang.Integer"/>
+    <field name="limitFh" class="java.lang.Integer"/>
+    <field name="estimatedDate" class="java.time.LocalDate"/>
+    <background>
+        <band/>
+    </background>
+    <columnHeader>
+        <band height="61">
+            <staticText>
+                <reportElement x="-20" y="0" width="110" height="60" uuid="d3d5d868-9286-4aa5-b955-27e1b0ded13e"/>
+                <box padding="5">
+                    <pen lineWidth="1.0"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <text><![CDATA[NOMENCLATURE]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="160" y="0" width="100" height="60" uuid="d22e2c86-6540-478a-ae5e-f93f434ef352"/>
+                <box padding="5">
+                    <pen lineWidth="1.0"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <text><![CDATA[SERIAL NO.]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="260" y="0" width="180" height="60" uuid="40f9423e-c24c-46c7-a0af-7ec05a140b52"/>
+                <box padding="5">
+                    <pen lineWidth="1.0"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <text><![CDATA[INSTALATION]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="260" y="30" width="70" height="30" uuid="ae5d603d-b2a9-4132-a60d-5219df7adf50"/>
+                <box padding="5">
+                    <pen lineWidth="1.0"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <text><![CDATA[DATE]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="330" y="30" width="50" height="30" uuid="116d34d1-b31e-4f90-8bfe-7f71558a3d86"/>
+                <box padding="5">
+                    <pen lineWidth="1.0"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <text><![CDATA[TSN]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="380" y="30" width="60" height="30" uuid="03eb7549-4361-41f3-8d4e-79d7153016f6"/>
+                <box padding="5">
+                    <pen lineWidth="1.0"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <text><![CDATA[TSO]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="440" y="0" width="110" height="60" uuid="5751d68b-279f-4a0c-8418-c13866bc7de4"/>
+                <box padding="5">
+                    <pen lineWidth="1.0"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <text><![CDATA[CURRENT]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="550" y="0" width="100" height="60" uuid="1aa6e5f5-1a25-44e0-ab62-49acf5671406"/>
+                <box padding="5">
+                    <pen lineWidth="1.0"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <text><![CDATA[LIFE LIMIT]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="550" y="30" width="54" height="30" uuid="2fb12d00-8eca-48dd-b41a-d9eca8091139"/>
+                <box padding="5">
+                    <pen lineWidth="1.0"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <text><![CDATA[MONTH]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="604" y="30" width="46" height="30" uuid="70c445a7-b55e-4671-bf99-cf00b0411953"/>
+                <box padding="5">
+                    <pen lineWidth="1.0"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <text><![CDATA[FH]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="650" y="0" width="100" height="60" uuid="0f93e668-6f81-4bea-993f-20c1072c5dc7"/>
+                <box padding="5">
+                    <pen lineWidth="1.0"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <text><![CDATA[ESTIMATED
+DUE DATE]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="90" y="0" width="70" height="60" uuid="5126e8e7-b297-41ec-b3c3-5115480fb6dc"/>
+                <box padding="5">
+                    <pen lineWidth="1.0"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <text><![CDATA[PART NO.]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="440" y="30" width="60" height="30" uuid="d3268c20-8100-429c-9d81-aaccf03ed6ae"/>
+                <box padding="5">
+                    <pen lineWidth="1.0"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <text><![CDATA[TSN]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="500" y="30" width="50" height="30" uuid="b5650b76-aa40-4685-a198-cb7659978b47"/>
+                <box padding="5">
+                    <pen lineWidth="1.0"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <text><![CDATA[TSO]]></text>
+            </staticText>
+        </band>
+    </columnHeader>
+    <detail>
+        <band height="36">
+            <textField>
+                <reportElement x="-20" y="0" width="110" height="35" uuid="9f743abe-814c-44d0-8dbc-4e63f15d3d81"/>
+                <box padding="2">
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <textFieldExpression><![CDATA[$F{nomenClature}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="90" y="0" width="70" height="35" uuid="c21b93a3-a87d-4c8c-8dd0-d79318860f97"/>
+                <box padding="2">
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <textFieldExpression><![CDATA[$F{partNo}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="160" y="0" width="100" height="35" uuid="330822b6-e713-410a-9878-34327a97a2b0"/>
+                <box padding="2">
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <textFieldExpression><![CDATA[$F{serialNo}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="260" y="0" width="70" height="35" uuid="a1385c96-5270-41b7-83f4-1a6c9f88cdaf"/>
+                <box padding="2">
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <textFieldExpression><![CDATA[$F{installationDate}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="330" y="0" width="50" height="35" uuid="4f44f556-2e96-4edb-838f-3ab71aa98e74"/>
+                <box padding="2">
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <textFieldExpression><![CDATA[$F{installationTsn}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="380" y="0" width="60" height="35" uuid="5af9b852-cf31-4e1e-b650-23dae8d6278b"/>
+                <box padding="2">
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <textFieldExpression><![CDATA[$F{installationTso}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="440" y="0" width="60" height="35" uuid="6f079be7-a162-4571-ae6f-2aa2ba7889fe"/>
+                <box padding="2">
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <textFieldExpression><![CDATA[$F{currentTsn}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="500" y="0" width="50" height="35" uuid="a21e4ba6-2f00-4c15-b21e-7d645e0719c4"/>
+                <box padding="2">
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <textFieldExpression><![CDATA[$F{currentTso}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="550" y="0" width="54" height="35" uuid="3d3b6a0e-aefc-41da-85af-63b2fd7bb910"/>
+                <box padding="2">
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <textFieldExpression><![CDATA[$F{limitMonth}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="604" y="0" width="46" height="35" uuid="c005c437-9800-4863-a75c-59e7d5abc9b3"/>
+                <box padding="2">
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <textFieldExpression><![CDATA[$F{limitFh}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="650" y="0" width="100" height="35" uuid="191a6218-018f-4d30-82a6-44b53e270c01"/>
+                <box padding="2">
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center"/>
+                <textFieldExpression><![CDATA[$F{estimatedDate}]]></textFieldExpression>
+            </textField>
+        </band>
+    </detail>
+    <columnFooter>
+        <band height="45" splitType="Stretch"/>
+    </columnFooter>
+    <pageFooter>
+        <band height="54" splitType="Stretch"/>
+    </pageFooter>
+    <summary>
+        <band height="42" splitType="Stretch"/>
+    </summary>
+</jasperReport>

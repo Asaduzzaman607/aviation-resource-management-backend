@@ -1,0 +1,70 @@
+
+################################################## Super Admin #########################################################
+INSERT INTO roles (name, is_deleted)
+    VALUES
+        ('SUPER_ADMIN', 0);
+
+INSERT INTO users (password, login, is_active, role_id)
+    VALUES
+        ('$2a$10$PSz9yA8Rwwd48DJbF6a/yOIyuQfjgs0i3yEABBVXao2aHpxoD/WFy', 'superadmin', 1, 1);
+
+################################################ Workflow Action #######################################################
+
+  INSERT INTO workflow_actions
+           ([is_active]
+           ,[name]
+           ,[order_no]
+           ,[show]
+           ,[label])
+     VALUES
+           (1
+           ,'CREATE'
+           ,-32768
+           ,1,'Created By');
+
+  INSERT INTO workflow_actions
+           ([is_active]
+           ,[name]
+           ,[order_no]
+           ,[show],
+           [label])
+     VALUES
+           (1
+           ,'APPROVED'
+           ,32767
+           ,0,'Approved By');
+
+################################################ Store Voucher Tracking #######################################################
+
+INSERT INTO [dbo].[store_voucher_tracking_log]
+           ([voucher_type])
+     VALUES
+           ('DEMAND'),
+           ('ISSUE'),
+           ('REQ'),
+           ('RFQ'),
+           ('QUOTE'),
+           ('STORE_PART_LOAN'),
+           ('SCRAP'),
+           ('CS'),
+           ('INSPECTOR'),
+           ('INSPECTION'),
+           ('CHECKLIST'),
+           ('ORDER'),
+           ('RETURN'),
+           ('USBA_STR'),
+           ('SIB'),
+           ('PI'),
+           ('PO'),
+           ('LO'),
+           ('RO'),
+           ('USBA_C'),
+           ('TRACKER')
+           ;
+
+ ################################################ Aircraft Models #######################################################
+
+             INSERT INTO aircraft_models
+                      ([name])
+                VALUES
+                      ('ATR 72-600'), ('DHC 8-Q402'), ('Boeing 737-800');

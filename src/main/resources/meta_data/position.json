@@ -1,0 +1,19 @@
+{
+  "headerSize" : 2,
+  "columnDefinitionList":[
+    {
+      "index": 0,
+      "name": "Name",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 1,
+      "name": "Description",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    }
+  ]
+}

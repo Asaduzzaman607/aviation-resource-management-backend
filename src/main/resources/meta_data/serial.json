@@ -1,0 +1,26 @@
+{
+  "headerSize" : 3,
+  "columnDefinitionList":[
+    {
+      "index": 0,
+      "name": "Model Name",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 1,
+      "name": "Part Number",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 2,
+      "name": "Serial Number",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    }
+  ]
+}

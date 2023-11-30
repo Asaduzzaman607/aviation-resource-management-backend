@@ -1,0 +1,25 @@
+{
+  "companyId": 1,
+  "sections": [
+    {
+      "id": 1,
+      "departmentId": 2,
+      "name": "section1"
+    },
+    {
+      "id": 2,
+      "departmentId": 1,
+      "name": "section2"
+    },
+    {
+      "id": 3,
+      "departmentId": 3,
+      "name": "section3"
+    },
+    {
+      "id": 4,
+      "departmentId": 1,
+      "name": "section4"
+    }
+  ]
+}

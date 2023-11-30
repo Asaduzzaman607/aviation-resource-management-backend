@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout
+                    pattern="[%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%-60C{1.}] [%t] [%L] req=[%X{traceId}]  [%-5p] %m%n"/>
+        </Console>
+        <Console name="error" target="SYSTEM_OUT">
+            <PatternLayout
+                    pattern="[%d{yyyy-MM-dd'T'HH:mm:ss.sss'Z'}] [%-60C{1.}] [%t] [%L] req=[%X{traceId}]  [%-5p] %m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="infolog" level="info">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="errorlog" level="error">
+            <AppenderRef ref="error"/>
+        </Logger>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>

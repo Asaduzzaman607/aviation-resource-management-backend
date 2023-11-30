@@ -1,0 +1,26 @@
+{
+  "headerSize": 3,
+  "columnDefinitionList": [
+    {
+      "index": 0,
+      "name": "TaskNo",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 1,
+      "name": "PositionName",
+      "isRequired": false,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 2,
+      "name": "JobProcedure",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    }
+  ]
+}

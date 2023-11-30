@@ -1,0 +1,364 @@
+{
+  "headerSize": 39,
+  "columnDefinitionList": [
+    {
+      "index": 0,
+      "name": "Higher Model",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 1,
+      "name": "Higher Part Number",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 2,
+      "name": "Higher Serial Number",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 3,
+      "name": "Model",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 4,
+      "name": "Part Number",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 5,
+      "name": "Serial Number",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 6,
+      "name": "Location",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 7,
+      "name": "Position",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 8,
+      "name": "tsnHour",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 9,
+      "name": "tsnCycle",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "int"
+    },
+    {
+      "index": 10,
+      "name": "tsoHour",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 11,
+      "name": "tsoCycle",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "int"
+    },
+    {
+      "index": 12,
+      "name": "tslsvHour",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 13,
+      "name": "tslsvCycle",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "int"
+    },
+    {
+      "index": 14,
+      "name": "aircraftHour",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 15,
+      "name": "aircraftCycle",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "int"
+    },
+    {
+      "index": 16,
+      "name": "Attach Date",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "date"
+    },
+    {
+      "index": 17,
+      "name": "Component Manufacture Date",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "date"
+    },
+    {
+      "index": 18,
+      "name": "Component Certificate Date",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "date"
+    },
+    {
+      "index": 19,
+      "name": "test",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "list",
+      "dataType": "string"
+    },
+    {
+      "index": 20,
+      "name": "inRefMessage",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string",
+      "defaultValue": "inRef"
+    },
+    {
+      "index": 21,
+      "name": "test2",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "int",
+      "defaultValue": "2"
+    },
+    {
+      "index": 23,
+      "name": "test3",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "list",
+      "dataType": "double",
+      "defaultValue": "2,3"
+    },
+    {
+      "index": 24,
+      "name": "test4",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string",
+      "regexPattern": "^[a-zA-Z0-9_]*$"
+    },
+    {
+      "index": 25,
+      "name": "test5",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "long"
+    },
+    {
+      "index": 26,
+      "name": "test6",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "long"
+    },
+    {
+      "index": 27,
+      "name": "test7",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "date"
+    },
+    {
+      "index": 28,
+      "name": "test8",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "date"
+    },
+    {
+      "index": 29,
+      "name": "test9",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "boolean"
+    },
+    {
+      "index": 30,
+      "name": "test10",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "boolean"
+    },
+    {
+      "index": 31,
+      "name": "test11",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 32,
+      "name": "test12",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 33,
+      "name": "test13",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "date",
+      "isValidDate": true,
+      "defaultValue": "2023-07-07"
+    },
+    {
+      "index": 34,
+      "name": "test14",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "dateTime",
+      "isValidDate": true,
+      "defaultValue": "2023-06-06 08:00:00"
+    },
+    {
+      "index": 35,
+      "name": "test15",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "int",
+      "constraints": [
+        {
+          "value": 23,
+          "operatorType": "lessThanOrEqual",
+          "type": "int"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "name": "test16",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "partClassification",
+      "defaultValue": "ROTABLE"
+    },
+    {
+      "index": 37,
+      "name": "test17",
+      "isRequired": false,
+      "isUnique": false,
+      "dataType": "partClassification",
+      "type": "list",
+      "defaultValue": "ROTABLE, EXPENDABLE"
+    },
+    {
+      "index": 38,
+      "name": "test18",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "partClassification",
+      "defaultValue": "ROTABLE"
+    },
+    {
+      "index": 39,
+      "name": "test19",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 40,
+      "name": "test20",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    }
+  ],
+  "operations": [
+    {
+      "columnPair": {
+        "firstColumnIndex": 0,
+        "secondColumnIndex": 3
+      },
+      "operatorType": "notEqual"
+    },
+    {
+      "columnPair": {
+        "firstColumnIndex": 1,
+        "secondColumnIndex": 4
+      },
+      "operatorType": "notEqual"
+    },
+    {
+      "columnPair": {
+        "firstColumnIndex": 24,
+        "secondColumnIndex": 25
+      },
+      "operatorType": "lessThan"
+    },
+    {
+      "columnPair": {
+        "firstColumnIndex": 26,
+        "secondColumnIndex": 27
+      },
+      "operatorType": "greaterThanOrEqual"
+    },
+    {
+      "columnPair": {
+        "firstColumnIndex": 28,
+        "secondColumnIndex": 29
+      },
+      "operatorType": "notEqual"
+    },
+    {
+      "columnPair": {
+        "firstColumnIndex": 30,
+        "secondColumnIndex": 31
+      },
+      "operatorType": "notEqual"
+    },
+    {
+      "columnPair": {
+        "firstColumnIndex": 35,
+        "secondColumnIndex": 37
+      },
+      "operatorType": "equal"
+    },
+    {
+      "columnPair": {
+        "firstColumnIndex": 38,
+        "secondColumnIndex": 39
+      },
+      "operatorType": "notEqual"
+    }
+  ]
+}

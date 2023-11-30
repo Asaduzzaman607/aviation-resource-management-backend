@@ -1,0 +1,41 @@
+{
+  "headerSize": 5,
+  "columnDefinitionList": [
+    {
+      "index": 0,
+      "name": "Model Type",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "modelType"
+    },
+    {
+      "index": 1,
+      "name": "Model",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 2,
+      "name": "Model Description",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 3,
+      "name": "Life Codes",
+      "isRequired": false,
+      "isUnique": false,
+      "dataType": "lifeCodes",
+      "type": "list"
+    },
+    {
+      "index": 4,
+      "name": "Model Version",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    }
+  ]
+}

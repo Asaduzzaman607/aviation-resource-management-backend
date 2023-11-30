@@ -1,0 +1,89 @@
+{
+  "headerSize": 12,
+  "columnDefinitionList": [
+    {
+      "index": 0,
+      "name": "Task Number",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 1,
+      "name": "Part Number",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 2,
+      "name": "Serial Number",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 3,
+      "name": "Position Number",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 4,
+      "name": "Interval Type",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "intervalType"
+    },
+    {
+      "index": 5,
+      "name": "Done Date",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "date"
+    },
+    {
+      "index": 6,
+      "name": "Done Hour",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 7,
+      "name": "Initial Hour",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 8,
+      "name": "Done Cycle",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "int"
+    },
+    {
+      "index": 9,
+      "name": "Initial Cycle",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "int"
+    },
+    {
+      "index": 10,
+      "name": "Remark",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 11,
+      "name": "Status",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "taskStatus"
+    }
+  ]
+}

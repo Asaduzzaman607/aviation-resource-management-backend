@@ -1,0 +1,152 @@
+{
+  "headerSize": 21,
+  "columnDefinitionList": [
+    {
+      "index": 0,
+      "name": "S/N",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 1,
+      "name": "PART NUMBER",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 2,
+      "name": "NAME",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 3,
+      "name": "UNIT",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 4,
+      "name": "SH./LIFE",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 5,
+      "name": "Date",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 6,
+      "name": "U/Price(USD)",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 7,
+      "name": "OpeningQty",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 8,
+      "name": "OpeningValue(USD)",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 9,
+      "name": "PurchasedQty",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 10,
+      "name": "PurchasedValue(USD)",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 11,
+      "name": "IssuedQty",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 12,
+      "name": "IssuedValue(USD)",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 13,
+      "name": "Qty",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 14,
+      "name": "ClosingQty",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 15,
+      "name": "ClosingValue(USD)",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 16,
+      "name": "Serial Number",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 17,
+      "name": "G.R.N",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "list"
+    },
+    {
+      "index": 18,
+      "name": "ISSUED A/C",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 19,
+      "name": "Location",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 20,
+      "name": "Alt P/No.",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    }
+  ]
+}

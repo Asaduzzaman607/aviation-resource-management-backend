@@ -1,0 +1,1923 @@
+{
+  "apiErrors": [
+    {
+      "code": "pro001",
+      "message": "Procurement Requisition exists of same demand"
+    },
+    {
+      "code": "rs1001",
+      "message": "No zero and Negative value allowed"
+    },
+    {
+      "code": "item1001",
+      "message": "Demand id must not be null"
+    },
+    {
+      "code": "cur002",
+      "message": "Currency code can not be empty"
+    },
+    {
+      "code": "item1002",
+      "message": "Demand number already exist"
+    },
+    {
+      "code": "item1003",
+      "message": "Store demand id required"
+    },
+    {
+      "code": "item1004",
+      "message": "Data not updated"
+    },
+    {
+      "code": "room1001",
+      "message": "Code already exist"
+    },
+    {
+      "code": "stores1001",
+      "message": "Code must not be null"
+    },
+    {
+      "code": "stores1002",
+      "message": "Data not saved"
+    },
+    {
+      "code": "common06",
+      "message": "%s Data not saved"
+    },
+    {
+      "code": "stores1003",
+      "message": "Stores not found"
+    },
+    {
+      "code": "stores1004",
+      "message": "Parent can not change status because of child dependency"
+    },
+    {
+      "code": "stores1005",
+      "message": "Store not deleted"
+    },
+    {
+      "code": "a4000",
+      "message": "system exception has been thrown"
+    },
+    {
+      "code": "a40001",
+      "message": "User not exists"
+    },
+    {
+      "code": "a40002",
+      "message": "Role not exists"
+    },
+    {
+      "code": "a40003",
+      "message": "Id is required."
+    },
+    {
+      "code": "a40004",
+      "message": "User exists with this name. Please try with another name."
+    },
+    {
+      "code": "a40005",
+      "message": "Role is required."
+    },
+    {
+      "code": "a40006",
+      "message": "Login is required."
+    },
+    {
+      "code": "a40007",
+      "message": "Password is required."
+    },
+    {
+      "code": "a40008",
+      "message": "login size should be in between 4 and 20."
+    },
+    {
+      "code": "qv0001",
+      "message": "Vendor validity date missing"
+    },
+    {
+      "code": "a40009",
+      "message": "Password size should be in between 3 and 20."
+    },
+    {
+      "code": "a40035",
+      "message": "User already exists with this employee id."
+    },
+    {
+      "code": "a40036",
+      "message": "Login name already exists."
+    },
+    {
+      "code": "a40037",
+      "message": "Password doesn't match."
+    },
+    {
+      "code": "a40010",
+      "message": "Invalid jwt token."
+    },
+    {
+      "code": "role01",
+      "message": "Role Name must not be empty"
+    },
+    {
+      "code": "role02",
+      "message": "Role Name already exists"
+    },
+    {
+      "code": "role03",
+      "message": "Role Not saved"
+    },
+    {
+      "code": "role04",
+      "message": "Role not updated"
+    },
+    {
+      "code": "role05",
+      "message": "Role deletion has failed"
+    },
+    {
+      "code": "role06",
+      "message": "Role duplication has failed"
+    },
+    {
+      "code": "u1001",
+      "message": "User has no role"
+    },
+    {
+      "code": "a40011",
+      "message": "Passwords must be at least 8 characters in length and a combination of numbers, letters, and special characters [Minimum 2 types are mandatory]"
+    },
+    {
+      "code": "a40012",
+      "message": "Invalid email pattern."
+    },
+    {
+      "code": "a40013",
+      "message": "Password mismatch with confirmation password."
+    },
+    {
+      "code": "ar1001",
+      "message": "Access denied."
+    },
+    {
+      "code": "ar1002",
+      "message": "Access right required."
+    },
+    {
+      "code": "r1001",
+      "message": "Failed to update role access rights."
+    },
+    {
+      "code": "a40014",
+      "message": "Failed to save user."
+    },
+    {
+      "code": "a40015",
+      "message": "Set of id can't be null or empty"
+    },
+    {
+      "code": "a40016",
+      "message": "Status can't be null."
+    },
+    {
+      "code": "a40017",
+      "message": "Failed to update deleted status."
+    },
+    {
+      "code": "a40018",
+      "message": "User not exists with this deleted status."
+    },
+    {
+      "code": "conf01",
+      "message": "Dialing code already exists"
+    },
+    {
+      "code": "conf02",
+      "message": "Country name already exists"
+    },
+    {
+      "code": "conf03",
+      "message": "Country code already exists"
+    },
+    {
+      "code": "conf04",
+      "message": "Dialing code is not valid"
+    },
+    {
+      "code": "com101",
+      "message": "Company name already exist."
+    },
+    {
+      "code": "com102",
+      "message": "Company do not saved."
+    },
+    {
+      "code": "com103",
+      "message": "Company do not updated."
+    },
+    {
+      "code": "com104",
+      "message": "Company do not deleted."
+    },
+    {
+      "code": "com105",
+      "message": "Company do not found."
+    },
+    {
+      "code": "am100",
+      "message": "Aircraft model do not found."
+    },
+    {
+      "code": "am101",
+      "message": "Aircraft model do not saved."
+    },
+    {
+      "code": "am102",
+      "message": "Aircraft model do not updated."
+    },
+    {
+      "code": "am103",
+      "message": "Aircraft model inactive is not possible as it has active child."
+    },
+    {
+      "code": "am104",
+      "message": "Aircraft model name already exist."
+    },
+    {
+      "code": "am105",
+      "message": "Aircraft model name should not be empty."
+    },
+    {
+      "code": "ar100",
+      "message": "Aircraft ame should not be empty."
+    },
+    {
+      "code": "ar101",
+      "message": "Aircraft model should not be empty."
+    },
+    {
+      "code": "common01",
+      "message": "Data not found."
+    },
+    {
+      "code": "common02",
+      "message": "Active flag is already set as given value"
+    },
+    {
+      "code": "common04",
+      "message": "Data not found for: %s"
+    },
+    {
+      "code": "common05",
+      "message": "Id is required for: %s"
+    },
+    {
+      "code": "mod1001",
+      "message": "Module Name already exists"
+    },
+    {
+      "code": "mod1002",
+      "message": "Module Name is required"
+    },
+    {
+      "code": "mod1003",
+      "message": "Submodule Name is required"
+    },
+    {
+      "code": "mod1004",
+      "message": "Submodule Name already exists"
+    },
+    {
+      "code": "mod1005",
+      "message": "Module ID is required"
+    },
+    {
+      "code": "mod1006",
+      "message": "Sub Module ID is required"
+    },
+    {
+      "code": "order100",
+      "message": "Module order must not be empty!"
+    },
+    {
+      "code": "order101",
+      "message": "Submodule order must not be empty!"
+    },
+    {
+      "code": "order102",
+      "message": "Submodule item order must not be empty!"
+    },
+    {
+      "code": "mod1007",
+      "message": "Couldn't inactive module, there are submodules under this module"
+    },
+    {
+      "code": "mod1008",
+      "message": "Couldn't inactive Submodule, there are items under this submodule"
+    },
+    {
+      "code": "itm1001",
+      "message": "Base Item ID is required"
+    },
+    {
+      "code": "itm1002",
+      "message": "Item Name already exists"
+    },
+    {
+      "code": "itm1003",
+      "message": "Item Name is required"
+    },
+    {
+      "code": "itm1004",
+      "message": "Item has dependency as base item."
+    },
+    {
+      "code": "fp10001",
+      "message": "File path not found."
+    },
+    {
+      "code": "ac1001",
+      "message": "Invalid access permission."
+    },
+    {
+      "code": "a40019",
+      "message": "Token not found."
+    },
+    {
+      "code": "a50001",
+      "message": "Refresh token was expired. Please make a new signin request."
+    },
+    {
+      "code": "a50002",
+      "message": "Invalid user name or password."
+    },
+    {
+      "code": "a40020",
+      "message": "Refresh token is required."
+    },
+    {
+      "code": "wfa001",
+      "message": "Work Flow Action not found"
+    },
+    {
+      "code": "wfa002",
+      "message": "This item is not editable!"
+    },
+    {
+      "code": "wfa003",
+      "message": "Pending items are still to be approved under same parent"
+    },
+    {
+      "code": "wfa004",
+      "message": "Provided Demand does not exist or not approved yet"
+    },
+    {
+      "code": "common1001",
+      "message": "Invalid request! Please check if all data given properly."
+    },
+    {
+      "code": "storeissue001",
+      "message": "Issue must be unique by: Demand & Voucher No."
+    },
+    {
+      "code": "storeissue002",
+      "message": "Demand Item information is not valid!"
+    },
+    {
+      "code": "ai001",
+      "message": "Approval Item Id is Required"
+    },
+    {
+      "code": "eri001",
+      "message": "Employee id is required"
+    },
+    {
+      "code": "nts100",
+      "message": "Work Flow Name doesn't exist"
+    },
+    {
+      "code": "nts1001",
+      "message": "Workflow name is required"
+    },
+    {
+      "code": "nts1002",
+      "message": "Submodule item id is required"
+    },
+    {
+      "code": "nts1003",
+      "message": "Select employee(s) to perform this action"
+    },
+    {
+      "code": "loc1000",
+      "message": "Location code already exist"
+    },
+    {
+      "code": "loc1001",
+      "message": "Location Address field is empty"
+    },
+    {
+      "code": "loc1002",
+      "message": "City Id field is required"
+    },
+    {
+      "code": "man1011",
+      "message": "Country origin ID is required"
+    },
+    {
+      "code": "man1010",
+      "message": "City ID is required"
+    },
+    {
+      "code": "airport_01",
+      "message": "Airport name must not be empty"
+    },
+    {
+      "code": "airport_02",
+      "message": "Iata code must not be empty "
+    },
+    {
+      "code": "airport_03",
+      "message": "Airport not exists"
+    },
+    {
+      "code": "airport_04",
+      "message": "Airport not saved"
+    },
+    {
+      "code": "airport_05",
+      "message": "Iata code already exists"
+    },
+    {
+      "code": "airport_06",
+      "message": "Fail to toggle airport active status "
+    },
+    {
+      "code": "man1012",
+      "message": "Address is required"
+    },
+    {
+      "code": "emtn01",
+      "message": "Type name must not be empty"
+    },
+    {
+      "code": "emtn02",
+      "message": "Type name already exists"
+    },
+    {
+      "code": "emtn03",
+      "message": "Type is not saved"
+    },
+    {
+      "code": "emtn04",
+      "message": "Type is not updated"
+    },
+    {
+      "code": "emtn05",
+      "message": "Could not change status"
+    },
+    {
+      "code": "cde1000",
+      "message": "In-Activation failed as it has active child(s)"
+    },
+    {
+      "code": "cde1001",
+      "message": "Activation failed as it has in-active parent(s) : %s"
+    },
+    {
+      "code": "c1001",
+      "message": "Cabin code is required."
+    },
+    {
+      "code": "c1002",
+      "message": "Cabin title is required."
+    },
+    {
+      "code": "c1003",
+      "message": "Cabin code and title must be unique."
+    },
+    {
+      "code": "c1004",
+      "message": "Failed to change active status of cabin."
+    },
+    {
+      "code": "ac2001",
+      "message": "Aircraft id is required."
+    },
+    {
+      "code": "ac2002",
+      "message": "No of seats is required."
+    },
+    {
+      "code": "c1005",
+      "message": "Cabin id is required."
+    },
+    {
+      "code": "umc10001",
+      "message": "Unit measurement code already exist"
+    },
+    {
+      "code": "umc10002",
+      "message": "Unit measurement id is required."
+    },
+    {
+      "code": "umc10003",
+      "message": "Unit measurement is not found."
+    },
+    {
+      "code": "edcm1002",
+      "message": "Provided Phone data is not digit number"
+    },
+    {
+      "code": "name001",
+      "message": "City name is required"
+    },
+    {
+      "code": "loc001",
+      "message": "Location has a parent delete not possible"
+    },
+    {
+      "code": "ws001",
+      "message": "WorkShop code must follow case sensitive rule"
+    },
+    {
+      "code": "jr10001",
+      "message": "Failed to load jasper template."
+    },
+    {
+      "code": "mc101",
+      "message": "Major Component part_no not found"
+    },
+    {
+      "code": "mc102",
+      "message": "Major Component description not found"
+    },
+    {
+      "code": "c1006",
+      "message": "Could not change active status because cabin is already used."
+    },
+    {
+      "code": "ent1001",
+      "message": "Engine model type does not exists."
+    },
+    {
+      "code": "emt1002",
+      "message": "Engine model type id is required."
+    },
+    {
+      "code": "al_100",
+      "message": "Airport location name already exists "
+    },
+    {
+      "code": "al_101",
+      "message": "Location id already exists "
+    },
+    {
+      "code": "erp_100",
+      "message": "Unable to retrieve ERP data "
+    },
+    {
+      "code": "afon1000",
+      "message": "Order number cannot be empty"
+    },
+    {
+      "code": "afde10001",
+      "message": "WorkFlow Action Data already exist with given name"
+    },
+    {
+      "code": "ssi100",
+      "message": "Serial no. already exist."
+    },
+    {
+      "code": "ssi101",
+      "message": "Store stock inward inactive is not possible due to child dependency."
+    },
+    {
+      "code": "si100",
+      "message": "Store issue serial no. already exist."
+    },
+    {
+      "code": "wfa100",
+      "message": "Work flow action name and order must be unique."
+    },
+    {
+      "code": "wfa101",
+      "message": "Work flow action order already active."
+    },
+    {
+      "code": "model1001",
+      "message": "Model Name Already exist"
+    },
+    {
+      "code": "am106",
+      "message": "Aircraft Model Id must be required"
+    },
+    {
+      "code": "a40021",
+      "message": "Model tree exists with same configuration."
+    },
+    {
+      "code": "a40022",
+      "message": "Failed to save model tree."
+    },
+    {
+      "code": "aml1001",
+      "message": "Page no is required."
+    },
+    {
+      "code": "aml1002",
+      "message": "Date is required."
+    },
+    {
+      "code": "aml1003",
+      "message": "Page no already exits."
+    },
+    {
+      "code": "pos006",
+      "message": "Position name is already exits."
+    },
+    {
+      "code": "a40023",
+      "message": "Model can not be higher model itself."
+    },
+    {
+      "code": "a40032",
+      "message": "Position name can not be null."
+    },
+    {
+      "code": "part_101",
+      "message": "Part no. and model id already exits"
+    },
+    {
+      "code": "part_102",
+      "message": "Part number is required."
+    },
+    {
+      "code": "part_103",
+      "message": "Part is not found."
+    },
+    {
+      "code": "amlc1001",
+      "message": "AML connection not saved."
+    },
+    {
+      "code": "signature_100",
+      "message": "Signature auth name already exists"
+    },
+    {
+      "code": "aml1004",
+      "message": "Aircraft maintenance log is already used."
+    },
+    {
+      "code": "amlcs1001",
+      "message": "Failed to delete aml signatures."
+    },
+    {
+      "code": "a50000",
+      "message": "Reverse model tree exists with this model and higher model."
+    },
+    {
+      "code": "a5001",
+      "message": "Required at least two atl data."
+    },
+    {
+      "code": "a40024",
+      "message": "isOverhauled is not set, should not have tso."
+    },
+    {
+      "code": "a40025",
+      "message": "isShopVisited is not set, should not have tslsv."
+    },
+    {
+      "code": "a40027",
+      "message": "Part and higherPart hierarchy should be different."
+    },
+    {
+      "code": "a40028",
+      "message": "Invalid part hierarchy."
+    },
+    {
+      "code": "fl_100",
+      "message": "Start time must be before end time"
+    },
+    {
+      "code": "fl_101",
+      "message": "amlId already exists"
+    },
+    {
+      "code": "fl_102",
+      "message": "Aircraft not found"
+    },
+    {
+      "code": "oilr404",
+      "message": "Oil Record type does not Exist"
+    },
+    {
+      "code": "oilr405",
+      "message": "Oil Record AML id  doesn't match"
+    },
+    {
+      "code": "oilr406",
+      "message": "This type of record is already exist"
+    },
+    {
+      "code": "oilr407",
+      "message": "Oil Record Status Can not Update"
+    },
+    {
+      "code": "oilr408",
+      "message": "No AML Oil Record Found by The ID Provided"
+    },
+    {
+      "code": "cm40000",
+      "message": "Data exists with same configuration."
+    },
+    {
+      "code": "cm40001",
+      "message": "Data exists with same part and position."
+    },
+    {
+      "code": "common03",
+      "message": "AircraftModel not found by this aircraftId."
+    },
+    {
+      "code": "task001",
+      "message": "Task No. already exists "
+    },
+    {
+      "code": "a40029",
+      "message": "Invalid alternate part: part can not be alternate part of itself"
+    },
+    {
+      "code": "a40030",
+      "message": "Invalid alternate part: Alter part not found."
+    },
+    {
+      "code": "oilr409",
+      "message": "AML record type should be different."
+    },
+    {
+      "code": "aml_book_01",
+      "message": "AML Book aircraft id & start page already exists"
+    },
+    {
+      "code": "aml_book_02",
+      "message": "ATL Book start page is not valid"
+    },
+    {
+      "code": "aml_book_03",
+      "message": "ATL Book end page is not valid"
+    },
+    {
+      "code": "aml_book_04",
+      "message": "This ATL Book No is already exists "
+    },
+    {
+      "code": "task_0071",
+      "message": "Task effectivity is not valid"
+    },
+    {
+      "code": "aml1005",
+      "message": "Aircraft Maintenance Log not exist "
+    },
+    {
+      "code": "req1001",
+      "message": "Request Body can not be empty"
+    },
+    {
+      "code": "atu1001",
+      "message": "Invalid aircraft model time unit"
+    },
+    {
+      "code": "AL_00001",
+      "message": "File extension is not valid"
+    },
+    {
+      "code": "AL_00002",
+      "message": "File rows not found"
+    },
+    {
+      "code": "AL_00003",
+      "message": "File import error"
+    },
+    {
+      "code": "AL_00004",
+      "message": "Invalid file format"
+    },
+    {
+      "code": "AL_00005",
+      "message": "File error"
+    },
+    {
+      "code": "AL_00006",
+      "message": "Workbook unable to close"
+    },
+    {
+      "code": "AC_00001",
+      "message": "Invalid aircraft check done data"
+    },
+    {
+      "code": "aml1006",
+      "message": "Page number is not found in any book."
+    },
+    {
+      "code": "aml1007",
+      "message": "Invalid page number."
+    },
+    {
+      "code": "vc001",
+      "message": "Voucher No. already exists"
+    },
+    {
+      "code": "re001",
+      "message": "Release No. already exists"
+    },
+    {
+      "code": "rq100",
+      "message": "RFQ no. already exist."
+    },
+    {
+      "code": "re100",
+      "message": "Requisition no. already exist."
+    },
+    {
+      "code": "storedemand001",
+      "message": "This item is already approved"
+    },
+    {
+      "code": "ssr1000",
+      "message": "Store Stock Room Code already exists"
+    },
+    {
+      "code": "req001",
+      "message": "request type is not valid"
+    },
+    {
+      "code": "mel001",
+      "message": "Aml Id should not be same for Mel"
+    },
+    {
+      "code": "def1001",
+      "message": "Invalid Deferment code"
+    },
+    {
+      "code": "mel1001",
+      "message": "Invalid Mel Status code"
+    },
+    {
+      "code": "mel1002",
+      "message": "Invalid Mel Category code"
+    },
+    {
+      "code": "excel5001",
+      "message": "Column header is missing."
+    },
+    {
+      "code": "excel5003",
+      "message": "File can not be null."
+    },
+    {
+      "code": "excel5004",
+      "message": "File name can not be null."
+    },
+    {
+      "code": "excel5005",
+      "message": "File header can not be null."
+    },
+    {
+      "code": "excel5006",
+      "message": "Invalid hear size."
+    },
+    {
+      "code": "excel5007",
+      "message": "Meta data not found."
+    },
+    {
+      "code": "excel5008",
+      "message": "Header size is required."
+    },
+    {
+      "code": "excel5009",
+      "message": "Column definition list is required."
+    },
+    {
+      "code": "excel5010",
+      "message": "Header size and column definition list size is different."
+    },
+    {
+      "code": "excel5011",
+      "message": "column number is required."
+    },
+    {
+      "code": "excel5012",
+      "message": "Column number is required."
+    },
+    {
+      "code": "excel5013",
+      "message": "Invalid column number: For reverse checking."
+    },
+    {
+      "code": "excel5014",
+      "message": "Duplicate column number."
+    },
+    {
+      "code": "excel5015",
+      "message": "Duplicate column name."
+    },
+    {
+      "code": "excel5016",
+      "message": "Column is not recognized."
+    },
+    {
+      "code": "aphs001",
+      "message": "No A Check Phase Data found for this Aircraft"
+    },
+    {
+      "code": "aml1008",
+      "message": "Page no must be alpha numeric if allow alphabet is true."
+    },
+    {
+      "code": "r2000",
+      "message": "Exception happened while saving remark."
+    },
+    {
+      "code": "r2001",
+      "message": "Invalid remark id."
+    },
+    {
+      "code": "ti1001",
+      "message": "If repetitive type is repetitive, there must be a interval of interval type."
+    },
+    {
+      "code": "r2002",
+      "message": "Same aircraft found on multiple remarks."
+    },
+    {
+      "code": "r2003",
+      "message": "Exception happened while deleting remark."
+    },
+    {
+      "code": "fd1001",
+      "message": "Flight data can't be null or empty."
+    },
+    {
+      "code": "fd1002",
+      "message": "Block on time is required in flight data."
+    },
+    {
+      "code": "fd1003",
+      "message": "Block off time is required in flight data."
+    },
+    {
+      "code": "fd1004",
+      "message": "Block off time is required in flight data."
+    },
+    {
+      "code": "fd1005",
+      "message": "Landing time is required in flight data."
+    },
+    {
+      "code": "fd1006",
+      "message": "No of landing is required in flight data."
+    },
+    {
+      "code": "dr1001",
+      "message": "Sequence is required for defect and rectification."
+    },
+    {
+      "code": "excel5017",
+      "message": "Excel file is required."
+    },
+    {
+      "code": "d6001",
+      "message": "Failed to convert from string date to local date."
+    },
+    {
+      "code": "hp6001",
+      "message": "Higher part not found."
+    },
+    {
+      "code": "excel5018",
+      "message": "Column can not be paired with itself."
+    },
+    {
+      "code": "cce40001",
+      "message": "Class cast exception has been thrown."
+    },
+    {
+      "code": "a60001",
+      "message": "Invalid data type: Failed to parse data type enum."
+    },
+    {
+      "code": "a60002",
+      "message": "Invalid data: Aircraft build is not valid according to model tree configuration."
+    },
+    {
+      "code": "excel5019",
+      "message": "Invalid column metadata: list can not be of type list."
+    },
+    {
+      "code": "excel5020",
+      "message": "Pattern is applicable only for string value."
+    },
+    {
+      "code": "a60003",
+      "message": "Invalid data type: Failed to parse operator type enum."
+    },
+    {
+      "code": "excel5021",
+      "message": "Invalid operations: operator type can not be null."
+    },
+    {
+      "code": "excel5022",
+      "message": "Invalid column for operations."
+    },
+    {
+      "code": "excel5023",
+      "message": "Invalid operation: operation can not be performed on list data."
+    },
+    {
+      "code": "excel5024",
+      "message": "Invalid operation: value can not be compared with different type."
+    },
+    {
+      "code": "excel5025",
+      "message": "Invalid operation: Only not equal operation is allowed for string and boolean."
+    },
+    {
+      "code": "excel5026",
+      "message": "Invalid metadata isValidDate: only date type data can be compared with date."
+    },
+    {
+      "code": "excel5027",
+      "message": "Invalid columns constraints."
+    },
+    {
+      "code": "excel5028",
+      "message": "Invalid columns constraint value."
+    },
+    {
+      "code": "excel5029",
+      "message": "Data type miss matched with column data type."
+    },
+    {
+      "code": "excel5030",
+      "message": "Invalid operation: first and second column can not be null."
+    },
+    {
+      "code": "aml4001",
+      "message": "Invalid aircraft selected."
+    },
+    {
+      "code": "aml4002",
+      "message": "Page no alphabet must be A to Z."
+    },
+    {
+      "code": "aml4003",
+      "message": "First aml page no should not be alpha numeric."
+    },
+    {
+      "code": "aml4004",
+      "message": "Alpha numeric page no should be last aml page no."
+    },
+    {
+      "code": "ame-123456",
+      "message": "Aircraft Model not found with id"
+    },
+    {
+      "code": "cpnf229",
+      "message": "Consumable part not found."
+    },
+    {
+      "code": "fd2001",
+      "message": "Block off time must be before block on time."
+    },
+    {
+      "code": "fb2002",
+      "message": "Take off time must be before landing time."
+    },
+    {
+      "code": "fb2003",
+      "message": "Block off time must be before take off time."
+    },
+    {
+      "code": "fb2004",
+      "message": "Landing time must be before block on time."
+    },
+    {
+      "code": "fb2005",
+      "message": "Block on time and block off time both need to be present."
+    },
+    {
+      "code": "fb2006",
+      "message": "Landing time and take off time both need to be present."
+    },
+    {
+      "code": "or2001",
+      "message": "Oil record can't be null or empty."
+    },
+    {
+      "code": "fd2007",
+      "message": "Please provide block off time, block on time, take off time, landing time and no of landing."
+    },
+    {
+      "code": "fd2008",
+      "message": "Invalid block off time."
+    },
+    {
+      "code": "fd2009",
+      "message": "Invalid block on time."
+    },
+    {
+      "code": "cur001",
+      "message": "Currency code already exists"
+    },
+    {
+      "code": "pi0001",
+      "message": "Purchase Invoice Exists Under This Order"
+    },
+    {
+      "code": "wfa102",
+      "message": "Order number out of range"
+    },
+    {
+      "code": "vq100",
+      "message": "Valid vendor quotation detail id required."
+    },
+    {
+      "code": "vq101",
+      "message": "Valid vendor quotation fee id required."
+    },
+    {
+      "code": "vq102",
+      "message": "Vendor demand detail already exist under same part number."
+    },
+    {
+      "code": "vend200",
+      "message": "Duplicate vendor for rfq not acceptable."
+    },
+    {
+      "code": "ic001",
+      "message": "Description not found"
+    },
+    {
+      "code": "rd001",
+      "message": "Reason of Rejection must not be empty"
+    },
+    {
+      "code": "ad001",
+      "message": "Approval Remark must not be empty"
+    },
+    {
+      "code": "vsi100",
+      "message": "Voucher last sequence is not incremented!"
+    },
+    {
+      "code": "stp500",
+      "message": "Store serial part does not match."
+    },
+    {
+      "code": "pe101",
+      "message": "Unable to parse error."
+    },
+    {
+      "code": "wo_100",
+      "message": "Invalid wo no"
+    },
+    {
+      "code": "cabin_111",
+      "message": "Cabin code already exists"
+    },
+    {
+      "code": "cabin_222",
+      "message": "Cabin title already exists"
+    },
+    {
+      "code": "cabin_333",
+      "message": "Cabin Code and Title same as previous Code and Title"
+    },
+    {
+      "code": "dat101",
+      "message": "Date range difference must not greater than 6 months"
+    },
+    {
+      "code": "dat102",
+      "message": "Date range difference must not greater than 1 months"
+    },
+    {
+      "code": "tasktype101",
+      "message": "Task Type is already exist"
+    },
+    {
+      "code": "acae229",
+      "message": "Aircraft Check Already Exist For This Aircraft Model"
+    },
+    {
+      "code": "ctae229",
+      "message": "Check Title Already Exist"
+    },
+    {
+      "code": "tnf229",
+      "message": "Task Not Found"
+    },
+    {
+      "code": "common_error_40001",
+      "message": "Can not update inactive entity."
+    },
+    {
+      "code": "aml7001",
+      "message": "Invalid aml type code."
+    },
+    {
+      "code": "airtime_101",
+      "message": "Invalid total airframe time"
+    },
+    {
+      "code": "airtime_102",
+      "message": "Invalid total bd airframe time"
+    },
+    {
+      "code": "air_123456",
+      "message": "Aircraft name(A/C Registration) already exits"
+    },
+    {
+      "code": "air_654321",
+      "message": "Aircraft serial already exists"
+    },
+    {
+      "code": "air_cab_001",
+      "message": "Aircraft and cabin already exists"
+    },
+    {
+      "code": "te_101",
+      "message": "Bangladesh total time must be smaller or equal to aircraft total time"
+    },
+    {
+      "code": "ce_101",
+      "message": "Bangladesh total cycle must be smaller or equal to aircraft total cycle"
+    },
+    {
+      "code": "excel5031",
+      "message": "No sheet found or sheet is empty."
+    },
+    {
+      "code": "fd7000",
+      "message": "Total air time is required."
+    },
+    {
+      "code": "fd7001",
+      "message": "Total landing is required."
+    },
+    {
+      "code": "aclrnv229",
+      "message": "Ac check list are not valid."
+    },
+    {
+      "code": "atcnf229",
+      "message": "Ac type check not found."
+    },
+    {
+      "code": "lnf229",
+      "message": "Ldnd not found."
+    },
+    {
+      "code": "atcimnbn229",
+      "message": "Aircraft Type Check Ids must not be null."
+    },
+    {
+      "code": "limnbn229",
+      "message": "Ldnd Ids must not be null."
+    },
+    {
+      "code": "lluer-1",
+      "message": "Life limit unit enum error"
+    },
+    {
+      "code": "lluer-2",
+      "message": "Engine incidents enum error"
+    },
+    {
+      "code": "inct-1",
+      "message": "Incident type enum error"
+    },
+    {
+      "code": "clt-1",
+      "message": "Classification type enum error"
+    },
+    {
+      "code": "th101",
+      "message": "Threshold value not exist"
+    },
+    {
+      "code": "it101",
+      "message": "Interval value not exist"
+    },
+    {
+      "code": "p2001",
+      "message": "part no is already exits."
+    },
+    {
+      "code": "at0001",
+      "message": "User must have Super Admin role."
+    },
+    {
+      "code": "at0002",
+      "message": "You are not authorized for this request."
+    },
+    {
+      "code": "stp501",
+      "message": "Serials are not available or unserviceable"
+    },
+    {
+      "code": "issue001",
+      "message": "Can not create issue because this serial has already issued!"
+    },
+    {
+      "code": "spa001",
+      "message": "Store part are not available"
+    },
+    {
+      "code": "spa002",
+      "message": "Store part availability quantity is Zero"
+    },
+    {
+      "code": "si150",
+      "message": "Serial No. should not be empty."
+    },
+    {
+      "code": "cs100",
+      "message": "Pending on audit."
+    },
+    {
+      "code": "cs101",
+      "message": "Already rejected."
+    },
+    {
+      "code": "wfa009",
+      "message": "This workflow action is not assignable"
+    },
+    {
+      "code": "cs102",
+      "message": "Data not deleted."
+    },
+    {
+      "code": "ac_hour_101",
+      "message": "Invalid total A/C Hrs"
+    },
+    {
+      "code": "dh101",
+      "message": "Invalid done hour time"
+    },
+    {
+      "code": "ih101",
+      "message": "Invalid Initial hour time"
+    },
+    {
+      "code": "dat1003",
+      "message": "Date Range Must Be Less Than 2 years"
+    },
+    {
+      "code": "pr001",
+      "message": "Part Remark data not saved"
+    },
+    {
+      "code": "ab101",
+      "message": "No data available for this backdate"
+    },
+    {
+      "code": "af101",
+      "message": "Aircraft Effectivity not found"
+    },
+    {
+      "code": "af102",
+      "message": "This task is not applicable for this aircraft"
+    },
+    {
+      "code": "avg101",
+      "message": "Couldn't calculate Ldnd due to average Flight-Hour/Flight-Cycle 0 value"
+    },
+    {
+      "code": "avg102",
+      "message": "Couldn't calculate Ldnd due to average APU-Hour/APU-Cycle 0 value"
+    },
+    {
+      "code": "ldnd101",
+      "message": "Ldnd update from ATL is failed"
+    },
+    {
+      "code": "ab1001",
+      "message": "Aircraft Build not found by this id"
+    },
+    {
+      "code": "ab1002",
+      "message": "AC Build failed to save inactive"
+    },
+    {
+      "code": "ldnd103",
+      "message": "Apu hours must be greater than aircraft apu hours"
+    },
+    {
+      "code": "ldnd104",
+      "message": "Apu cycles must be greater than aircraft apu cycles"
+    },
+    {
+      "code": "lnf230",
+      "message": "Apu not available for this aircraft"
+    },
+    {
+      "code": "esv1001",
+      "message": "Engine shop visit not found."
+    },
+    {
+      "code": "esv1002",
+      "message": "Failed to save engine shop visits information."
+    },
+    {
+      "code": "et1001",
+      "message": "Engine times not found."
+    },
+    {
+      "code": "et1002",
+      "message": "Failed to save engine engine times information."
+    },
+    {
+      "code": "esv1003",
+      "message": "Invalid shop visited information."
+    },
+    {
+      "code": "esv1004",
+      "message": "Invalid model type. Engine model type should be TMM or RGB."
+    },
+    {
+      "code": "emt1001",
+      "message": "In engine there should be only one tmm and rgb engine model type."
+    },
+    {
+      "code": "et1003",
+      "message": "Invalid engine time information."
+    },
+    {
+      "code": "esv1005",
+      "message": "Duplicate engine shop info found for specific engine."
+    },
+    {
+      "code": "et1004",
+      "message": "Duplicate engine time info found for specific engine."
+    },
+    {
+      "code": "apu1005",
+      "message": "Duplicate available aircraft apus found."
+    },
+    {
+      "code": "apu1004",
+      "message": "This aircraft has no apu."
+    },
+    {
+      "code": "apu1003",
+      "message": "No aircraft apu record found."
+    },
+    {
+      "code": "ab1003",
+      "message": "AC Build not found by this Part-No and Serial-No"
+    },
+    {
+      "code": "ldnd102",
+      "message": "Ldnd not found by this Part-No and Serial-No"
+    },
+    {
+      "code": "est101",
+      "message": "Couldn't calculate estimated due date for ldnd"
+    },
+    {
+      "code": "rfq001",
+      "message": "Either Requisition Id or Part Order Id required"
+    },
+    {
+      "code": "common07",
+      "message": "%s Data not found"
+    },
+    {
+      "code": "pv2001",
+      "message": "This Part is already exist in Part Availablity table"
+    },
+    {
+      "code": "store100",
+      "message": "Count of serial no. and quantity must be equal."
+    },
+    {
+      "code": "store101",
+      "message": "Issued quantity must not greater than item demand quantity."
+    },
+    {
+      "code": "store103",
+      "message": "At least one item must be issued."
+    },
+    {
+      "code": "mel1003",
+      "message": "Invalid mel type"
+    },
+    {
+      "code": "nrc1001",
+      "message": "nrc no is already used."
+    },
+    {
+      "code": "sle1001",
+      "message": "Serial Number Length must be below 50 character"
+    },
+    {
+      "code": "rup1001",
+      "message": "Return unserviceable item must not be empty"
+    },
+    {
+      "code": "up1001",
+      "message": "Return serviceable item must not be empty"
+    },
+    {
+      "code": "rup1002",
+      "message": "Invalid Installed Serial Number"
+    },
+    {
+      "code": "rup1003",
+      "message": "Invalid Removed Serial Number"
+    },
+    {
+      "code": "voucher0001",
+      "message": "Voucher Tracking Prefix %s not found"
+    },
+    {
+      "code": "rup1004",
+      "message": "Installed and Removed Serial can not be same."
+    },
+    {
+      "code": "rfqv100",
+      "message": "Quote request vendor does not exist under the quote request!"
+    },
+    {
+      "code": "scrap100",
+      "message": "Scrap part is not valid as a child of scrap!"
+    },
+    {
+      "code": "aml4010",
+      "message": "Page no alphabet must greater than previous page no alphabet."
+    },
+    {
+      "code": "ab1004",
+      "message": "Duplicate aircraft build exists for same aircraft, model, higher model, location and position."
+    },
+    {
+      "code": "aml4011",
+      "message": "Invalid ATL date. ATL date must be equal or greater than previous ATL date."
+    },
+    {
+      "code": "aml4012",
+      "message": "Invalid ATL date. ATL date must be equal or greater than previous ATL date and equal or less than next ATL date."
+    },
+    {
+      "code": "inc4011",
+      "message": "Invalid Incidents date. Incidents date must be equal or less than current date."
+    },
+    {
+      "code": "inc4012",
+      "message": "Invalid Incidents Classification."
+    },
+    {
+      "code": "ab2001",
+      "message": "Aircraft build out hour/cycle must be greater than or equal to in hour/cycle."
+    },
+    {
+      "code": "storepartserial001",
+      "message": "Invalid Part Serial"
+    },
+    {
+      "code": "storepartserial002",
+      "message": "Invalid Part Serial: Serial Id and Number both are empty"
+    },
+    {
+      "code": "storepartserial003",
+      "message": "Serial/Lot was scrapped earlier!"
+    },
+    {
+      "code": "inspection0001",
+      "message": "This inspection is already closed!"
+    },
+    {
+      "code": "inspection0002",
+      "message": "Please specify parent: Return or Stock Inward"
+    },
+    {
+      "code": "rd101",
+      "message": "Return is not possible as Serial: %s was not issued!"
+    },
+    {
+      "code": "PartInv401",
+      "message": "Part Invoice Is not Exist by This Invoice No"
+    },
+    {
+      "code": "dh102",
+      "message": "Done Hour shouldn't be greater than current aircraft total hour"
+    },
+    {
+      "code": "dc101",
+      "message": "Done Cycle shouldn't be greater than current aircraft total cycle"
+    },
+    {
+      "code": "a60005",
+      "message": "Invalid Ldnd: LDND not found."
+    },
+    {
+      "code": "a60006",
+      "message": "Invalid forecastAircraftId: ForecastAircraft not found."
+    },
+    {
+      "code": "a60007",
+      "message": "Invalid forecastTaskId: ForecastTask not found."
+    },
+    {
+      "code": "a60008",
+      "message": "Invalid forecastTaskId: ForecastPart not found."
+    },
+    {
+      "code": "a60009",
+      "message": "Part or consumable part is required."
+    },
+    {
+      "code": "a60010",
+      "message": "forecastId is required."
+    },
+    {
+      "code": "a60011",
+      "message": "Aircraft can not have more than 100 forecast tasks."
+    },
+    {
+      "code": "a60012",
+      "message": "Number of total forecast tasks can not exceed 1000."
+    },
+    {
+      "code": "fold001",
+      "message": "This folder contains files. Please, remove all the files in this folder before trying to delete this folder."
+    },
+    {
+      "code": "fold002",
+      "message": "Invalid folder type."
+    },
+    {
+      "code": "fold003",
+      "message": "Folder type is required to create a new folder."
+    },
+    {
+      "code": "fold004",
+      "message": "Folder name already exists."
+    },
+    {
+      "code": "fold005",
+      "message": "Folder does not exist."
+    },
+    {
+      "code": "fold006",
+      "message": "Folder is not included."
+    },
+    {
+      "code": "fold007",
+      "message": "Folder name length must be between 1 and 128 characters."
+    },
+    {
+      "code": "file001",
+      "message": "File name exists."
+    },
+    {
+      "code": "file002",
+      "message": "File does not exist."
+    },
+    {
+      "code": "file003",
+      "message": "File name length must be between 1 and 128 characters."
+    },
+    {
+      "code": "file004",
+      "message": "File URL cannot be empty."
+    },
+    {
+      "code": "file005",
+      "message": "File key cannot be empty."
+    },
+    {
+      "code": "file006",
+      "message": "Duplicate match string"
+    },
+    {
+      "code" : "file007",
+      "message": "Match String already exists"
+    },
+    {
+      "code": "am1001",
+      "message": "Invalid aircraft model."
+    },
+    {
+      "code": "due1001",
+      "message": "Invalid DueDate Color"
+    },
+    {
+      "code": "acd101",
+      "message": "A-Check Done Hour must be less than or equal to Aircraft Total Hour"
+    },
+    {
+      "code": "returnserial001",
+      "message": "Given serial mismatched with part!"
+    },
+    {
+      "code": "storeissueavail001",
+      "message": "Lot not issuable! Please issue considering available stock!"
+    },
+    {
+      "code": "issue404",
+      "message": "Store Demand Item List not Found in Store Demand"
+    },
+    {
+      "code": "city001",
+      "message": "City already Exist under Same Country"
+    },
+    {
+      "code": "department001",
+      "message": "Department name already exists"
+    },
+    {
+      "code": "section001",
+      "message": "Section name Under this Department already exists"
+    },
+    {
+      "code": "designation001",
+      "message": "Designation name Under this Section already exists"
+    },
+    {
+      "code": "employee001",
+      "message": "Employee name Under this Designation already exists"
+    },
+    {
+      "code": "uni100",
+      "message": "Unserviceable part should not be issued."
+    },
+    {
+      "code": "sps100",
+      "message": "Store part serial must not be empty for consumable part."
+    },
+    {
+      "code": "sps101",
+      "message": "Serial already used."
+    },
+    {
+      "code": "sps102",
+      "message": "Part must be matched for part availability and serial."
+    },
+    {
+      "code": "dar1001",
+      "message": "Defect and rectification can not be deleted because it is already used in MEL."
+    },
+    {
+      "code": "dar1002",
+      "message": "Exception happened while deleting defect and rectification."
+    },
+    {
+      "code": "aml4013",
+      "message": "ATL type Regular/Main can not be updated into Void/Nil"
+    },
+    {
+      "code": "mlg1001",
+      "message": "NO MLG Data found by this part/serial"
+    },
+    {
+      "code": "po102",
+      "message": "Input type is required!"
+    },
+    {
+      "code": "po103",
+      "message": "Input type must not be update!"
+    },
+    {
+      "code": "po104",
+      "message": "Part must not be update for CS type!"
+    },
+    {
+      "code": "aravg101",
+      "message": "Average Flight-Hour/Flight-Cycle can not be equal to 0 ."
+    },
+    {
+      "code": "aravg102",
+      "message": "Average Apu-Hour/Apu-Cycle can not be equal to 0 ."
+    },
+    {
+      "code": "ab1005",
+      "message": "Aircraft In Hour can not be smaller than Flight-Hour/Apu-Hour."
+    },
+    {
+      "code": "ab1006",
+      "message": "Aircraft In Cycle can not be smaller than Flight-Cycle/Apu-Cycle."
+    },
+    {
+      "code": "dat1004",
+      "message": "Date Range Must Be within 12 Month"
+    },
+    {
+      "code": "dat1007",
+      "message": "Date Range Must Be within 1 Month"
+    },
+    {
+      "code": "dat1005",
+      "message": "To Date must be before than current month."
+    },
+    {
+      "code": "dat1006",
+      "message": "To Date must be before or equal the current date."
+    },
+    {
+      "code": "part101",
+      "message": "Part is already exist for this part-no and ac-type."
+    },
+    {
+      "code": "ab1007",
+      "message": "Location Tag is Required"
+    },
+    {
+      "code": "po101",
+      "message": "Part order not matched!"
+    },
+    {
+      "code": "approval001",
+      "message": "Approval Settings already exists in active tab!"
+    },
+    {
+      "code": "po105",
+      "message": "Vendor quotation not matched!"
+    },
+    {
+      "code": "defect101",
+      "message": "Defect Type is not valid."
+    },
+    {
+      "code": "fd2010",
+      "message": "BlockOn/Block Off/Take-off/Landing Time Should Be null For Non Regular Type Aml"
+    },
+    {
+      "code": "aml1009",
+      "message": "Alphabet is not allowed in Void/Nil type ATL"
+    },
+    {
+      "code": "email1001",
+      "message": "Email not sent"
+    },
+    {
+      "code": "po106",
+      "message": "Part order dto -> pPoId is required for creating logistic part order!"
+    },
+    {
+      "code": "amlfl101",
+      "message": "ATL not saved due to Flight Data"
+    },
+    {
+      "code": "amlfl102",
+      "message": "ATL was removed due to invalid Flight Data"
+    },
+    {
+      "code": "amlfl103",
+      "message": "FLIGHT Data not exist for this ATL"
+    },
+    {
+      "code": "srp001",
+      "message": "Return Part Quantity must be 1"
+    },
+    {
+      "code": "vendor_dup",
+      "message": "Vendor must not be duplicate!"
+    },
+    {
+      "code": "vendor_dup_1",
+      "message": "Vendor must not be duplicate under same RFQ!"
+    },
+    {
+      "code": "ppr001",
+      "message": "Aircraft Build inactive failed due to part return failure."
+    }, {
+      "code": "pi0002",
+      "message": "Payment Currency and Payment Mode Should Not Be Empty"
+    },
+    {
+      "code": "pa001",
+      "message": "Approved Qty. is not greater then Req. Qty."
+    },
+    {
+      "code": "cl001",
+      "message": "Client already Exist"
+    },
+    {
+      "code": "grn001",
+      "message": "Grn must not be empty"
+    },
+    {
+      "code": "ctype101",
+      "message": "Invalid Check Type."
+    },
+    {
+      "code": "storepartserial004",
+      "message": "This serial is already returned"
+    }
+  ]
+}

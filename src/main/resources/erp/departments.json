@@ -1,0 +1,29 @@
+{
+  "companyId": 1,
+  "departments": [
+    {
+      "id": 1,
+      "name": "dept1",
+      "code": "code1",
+      "info": "Info 1"
+    },
+    {
+      "id": 2,
+      "name": "dept2",
+      "code": "code1",
+      "info": "Info 1"
+    },
+    {
+      "id": 3,
+      "name": "dept3",
+      "code": "code1",
+      "info": "Info 1"
+    },
+    {
+      "id": 4,
+      "name": "dept4",
+      "code": "code1",
+      "info": "Info 1"
+    }
+  ]
+}

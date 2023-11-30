@@ -1,0 +1,305 @@
+[
+  {
+    "table": "store_demands",
+    "smiId": 50000,
+    "uris": [
+      "/api/store-demands",
+      "/api/store-demands/{id}",
+      "/api/store-demands/withAlterPart/{id}",
+      "/api/store-demands/decide/{id}",
+      "/api/store-demands/old/{id}",
+      "/api/store-demands/search"
+    ]
+  },
+  {
+    "table": "store_issues",
+    "smiId": 50004,
+    "uris": [
+      "/api/store/issues",
+      "/api/store/issues/{id}",
+      "/api/store/issues/decide/{id}",
+      "/api/store/issues/search"
+    ]
+  },
+  {
+    "table": "procurement_requisitions",
+    "smiId": 50018,
+    "uris": [
+      "/api/procurement-requisitions",
+      "/api/procurement-requisitions/{id}",
+      "/api/procurement-requisitions/decide/{id}",
+      "/api/procurement-requisitions/search"
+    ]
+  },
+  {
+    "table": "store_return",
+    "smiId": 50015,
+    "uris": [
+      "/api/store-return-parts",
+      "/api/store-return-parts/{id}",
+      "/api/store-return-parts/decide/{id}",
+      "/api/store-return-parts/search"
+    ]
+  },
+  {
+    "table": "store_work_orders",
+    "smiId": 50110,
+    "uris": [
+      "/api/store-work-order",
+      "/api/store-work-order/{id}",
+      "/api/store-work-order/decide/{id}",
+      "/api/store-work-order/search"
+    ]
+  },
+  {
+    "table": "vendors",
+    "smiId": 50120,
+    "uris": [
+      "/api/config/quality/manufacturer/search",
+      "/api/vendors/search",
+      "/api/config/quality/manufacturer/decide/{id}",
+      "/api/config/quality/manufacturer/{id}",
+      "/api/config/quality/manufacturer/validity/{id}"
+    ]
+  },
+  {
+    "table": "vendors",
+    "smiId": 50124,
+    "uris": [
+      "/api/material-management/config/quality/supplier/search",
+      "/api/vendors/search",
+      "/api/material-management/config/quality/supplier/decide/{id}",
+      "/api/material-management/config/quality/supplier/{id}",
+      "/api/material-management/config/quality/supplier/validity/{id}"
+    ]
+  },
+  {
+    "table": "vendors",
+    "smiId": 50087,
+    "uris": [
+      "/api/config/own_department/manufacturer",
+      "/api/vendors/search",
+      "/api/config/own_department/manufacturer/{id}",
+      "/api/config/own_department/manufacturer/decide/{id}",
+      "/api/config/own_department/manufacturer/search"
+    ]
+  },
+  {
+    "table": "vendors",
+    "smiId": 50030,
+    "uris": [
+      "/api/material-management/config/shipment_provider",
+      "/api/material-management/config/shipment_provider/{id}",
+      "/api/material-management/config/shipment_provider/decide/{id}",
+      "/api/material-management/config/shipment_provider/search"
+    ]
+  },
+  {
+    "table": "vendors",
+    "smiId": 50031,
+    "uris": [
+      "/api/material-management/config/supplier/own_department",
+      "/api/vendors/search",
+      "/api/material-management/config/supplier/own_department/{id}",
+      "/api/material-management/config/supplier/own_department/decide/{id}",
+      "/api/material-management/config/supplier/own_department/search"
+    ]
+  },
+  {
+    "table": "inspection_checklists",
+    "smiId": 50103,
+    "uris": [
+      "/api/store-inspector/own_department/inspection-checklists",
+      "/api/store-inspector/own_department/inspection-checklists/{id}",
+      "/api/store-inspector/own_department/inspection-checklists/decide/{id}",
+      "/api/store-inspector/own_department/inspection-checklists/search"
+    ]
+  },
+  {
+    "table": "inspection_checklists",
+    "smiId": 50126,
+    "uris": [
+      "/api/store-inspector/quality/inspection-checklists/search",
+      "/api/store-inspector/quality/inspection-checklists/decide/{id}",
+      "/api/store-inspector/quality/inspection-checklists/{id}"
+    ]
+  },
+  {
+    "table": "quote_requests",
+    "smiId": 50026,
+    "uris": [
+      "/api/procurement/quote-requests",
+      "/api/procurement/quote-requests/{id}",
+      "/api/procurement/quote-requests/decide/{id}",
+      "/api/procurement/quote-requests/search"
+    ]
+  },
+  {
+    "table": "quote_requests",
+    "smiId": 50152,
+    "uris": [
+      "/api/logistic/quote-requests",
+      "/api/logistic/quote-requests/{id}",
+      "/api/logistic/quote-requests/search",
+      "/api/logistic/quote-requests/decide/{id}"
+    ]
+  },
+  {
+    "table": "comparative_statements",
+    "smiId": 50033,
+    "uris": [
+      "/api/procurement/comparative-statements/material-management",
+      "/api/procurement/comparative-statements/material-management/{id}",
+      "/api/procurement/comparative-statements/material-management/existing/{id}",
+      "/api/procurement/comparative-statements/material-management/decide/{id}",
+      "/api/procurement/comparative-statements/material-management/search"
+    ]
+  },
+  {
+    "table": "comparative_statements",
+    "smiId": 50106,
+    "uris": [
+      "/api/procurement/comparative-statements/audit-management",
+      "/api/procurement/comparative-statements/audit-management/{id}",
+      "/api/procurement/comparative-statements/audit-management/existing/{id}",
+      "/api/procurement/comparative-statements/audit-management/decide/{id}",
+      "/api/procurement/comparative-statements/audit-management/search"
+    ]
+  },
+  {
+    "table": "comparative_statements",
+    "smiId": 50108,
+    "uris": [
+      "/api/procurement/comparative-statements/final-management",
+      "/api/procurement/comparative-statements/final-management/{id}",
+      "/api/procurement/comparative-statements/final-management/existing/{id}",
+      "/api/procurement/comparative-statements/final-management/decide/{id}",
+      "/api/procurement/comparative-statements/final-management/search"
+    ]
+  },
+  {
+    "table": "comparative_statements",
+    "smiId": 50156,
+    "uris": [
+      "/api/logistic/comparative-statements/material-management",
+      "/api/logistic/comparative-statements/material-management/{id}",
+      "/api/logistic/comparative-statements/material-management/existing/{id}",
+      "/api/logistic/comparative-statements/material-management/decide/{id}",
+      "/api/logistic/comparative-statements/material-management/search"
+    ]
+  },
+  {
+    "table": "comparative_statements",
+    "smiId": 50159,
+    "uris": [
+      "/api/logistic/comparative-statements/audit-management",
+      "/api/logistic/comparative-statements/audit-management/{id}",
+      "/api/logistic/comparative-statements/audit-management/existing/{id}",
+      "/api/logistic/comparative-statements/audit-management/decide/{id}",
+      "/api/logistic/comparative-statements/audit-management/search"
+    ]
+  },
+  {
+    "table": "comparative_statements",
+    "smiId": 50161,
+    "uris": [
+      "/api/logistic/comparative-statements/final-management",
+      "/api/logistic/comparative-statements/final-management/{id}",
+      "/api/logistic/comparative-statements/final-management/existing/{id}",
+      "/api/logistic/comparative-statements/final-management/decide/{id}",
+      "/api/logistic/comparative-statements/final-management/search"
+    ]
+  },
+  {
+    "table": "part_orders",
+    "smiId": 50163,
+    "uris": [
+      "/api/logistic/part-orders",
+      "/api/logistic/part-orders/all",
+      "/api/logistic/part-orders/{id}",
+      "/api/logistic/part-orders/decide/{id}",
+      "/api/logistic/part-orders/search"
+    ]
+  },
+  {
+    "table": "part_orders",
+    "smiId": 50032,
+    "uris": [
+      "/api/procurement/part-orders",
+      "/api/procurement/part-orders/all",
+      "/api/procurement/part-orders/{id}",
+      "/api/procurement/part-orders/decide/{id}",
+      "/api/procurement/part-orders/search"
+    ]
+  },
+  {
+    "table": "parts_invoices",
+    "smiId": 50113,
+    "uris": [
+      "/api/procurement/own_department/parts-invoice",
+      "/api/procurement/own_department/parts-invoice/decide/{id}",
+      "/api/procurement/own_department/parts-invoice/{id}",
+      "/api/procurement/own_department/parts-invoice/search"
+    ]
+  },
+  {
+    "table": "parts_invoices",
+    "smiId": 50164,
+    "uris": [
+      "/api/logistic/own_department/parts-invoice",
+      "/api/logistic/own_department/parts-invoice/decide/{id}",
+      "/api/logistic/own_department/parts-invoice/{id}",
+      "/api/logistic/own_department/parts-invoice/search"
+    ]
+  },
+  {
+    "table": "parts_invoices",
+    "smiId": 50165,
+    "uris": [
+      "/api/procurement/audit/parts-invoice",
+      "/api/procurement/audit/parts-invoice/decide/{id}",
+      "/api/procurement/audit/parts-invoice/{id}",
+      "/api/procurement/audit/parts-invoice/search"
+    ]
+  },
+  {
+    "table": "parts_invoices",
+    "smiId": 50167,
+    "uris": [
+      "/api/procurement/finance/parts-invoice",
+      "/api/procurement/finance/parts-invoice/decide/{id}",
+      "/api/procurement/finance/parts-invoice/{id}",
+      "/api/procurement/finance/parts-invoice/search"
+    ]
+  },
+  {
+    "table": "parts_invoices",
+    "smiId": 50169,
+    "uris": [
+      "/api/logistic/audit/parts-invoice",
+      "/api/logistic/audit/parts-invoice/decide/{id}",
+      "/api/logistic/audit/parts-invoice/{id}",
+      "/api/logistic/audit/parts-invoice/search"
+    ]
+  },
+  {
+    "table": "parts_invoices",
+    "smiId": 50171,
+    "uris": [
+      "/api/logistic/finance/parts-invoice",
+      "/api/logistic/finance/parts-invoice/decide/{id}",
+      "/api/logistic/finance/parts-invoice/{id}",
+      "/api/logistic/finance/parts-invoice/search"
+    ]
+  },
+  {
+    "table": "store_scraps",
+    "smiId": 50023,
+    "uris": [
+      "/api/store/scraps",
+      "/api/store/scraps/decide/{id}",
+      "/api/store/scraps/{id}",
+      "/api/store/scraps/search"
+    ]
+  }
+]

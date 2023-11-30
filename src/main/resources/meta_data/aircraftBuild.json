@@ -1,0 +1,161 @@
+{
+  "headerSize": 20,
+  "columnDefinitionList": [
+    {
+      "index": 0,
+      "name": "Higher Model",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 1,
+      "name": "Higher Part Number",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 2,
+      "name": "Higher Serial Number",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 3,
+      "name": "Model",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 4,
+      "name": "Part Number",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 5,
+      "name": "Serial Number",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 6,
+      "name": "Location",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 7,
+      "name": "Position",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 8,
+      "name": "Tsn Hour",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 9,
+      "name": "Tsn Cycle",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "int"
+    },
+    {
+      "index": 10,
+      "name": "Tso Hour",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 11,
+      "name": "Tso Cycle",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "int"
+    },
+    {
+      "index": 12,
+      "name": "Tslsv Hour",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 13,
+      "name": "Tslsv Cycle",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "int"
+    },
+    {
+      "index": 14,
+      "name": "Aircraft In Hour",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 15,
+      "name": "Aircraft In Cycle",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "int"
+    },
+    {
+      "index": 16,
+      "name": "Attach Date",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "date"
+    },
+    {
+      "index": 17,
+      "name": "Component Manufacture Date",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "date"
+    },
+    {
+      "index": 18,
+      "name": "Component Certificate Date",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "date"
+    },
+    {
+      "index": 19,
+      "name": "In Ref Message",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    }
+  ],
+  "operations": [
+    {
+      "columnPair": {
+        "firstColumnIndex": 0,
+        "secondColumnIndex": 3
+      },
+      "operatorType": "notEqual"
+    },
+    {
+      "columnPair": {
+        "firstColumnIndex": 1,
+        "secondColumnIndex": 4
+      },
+      "operatorType": "notEqual"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "headerSize" : 19,
+  "columnDefinitionList":[
+    {
+      "index": 0,
+      "name": "Model",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 1,
+      "name": "TaskNo",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 2,
+      "name": "TaskSource",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 3,
+      "name": "RepeatType",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "repetitiveType"
+    },
+    {
+      "index": 4,
+      "name": "Description",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 5,
+      "name": "ManHours",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 6,
+      "name": "Sources",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 7,
+      "name": "Status",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "taskStatus"
+    },
+    {
+      "index": 8,
+      "name": "IsApuControl",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "boolean"
+    },
+    {
+      "index": 9,
+      "name": "IntervalDay",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "int"
+    },
+    {
+      "index": 10,
+      "name": "IntervalHour",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 11,
+      "name": "IntervalCycle",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "int"
+    },
+    {
+      "index": 12,
+      "name": "ThresholdDay",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "int"
+    },
+    {
+      "index": 13,
+      "name": "ThresholdHour",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 14,
+      "name": "ThresholdCycle",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "int"
+    },
+    {
+      "index": 15,
+      "name": "EffectiveDate",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "date"
+    },
+    {
+      "index": 16,
+      "name": "TaskType",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 17,
+      "name": "Trade",
+      "isRequired": true,
+      "isUnique": false,
+      "dataType": "string",
+      "type": "list"
+    },
+    {
+      "index": 18,
+      "name": "Comment",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    }
+  ]
+}

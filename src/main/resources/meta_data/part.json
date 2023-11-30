@@ -1,0 +1,68 @@
+{
+  "headerSize" : 9,
+  "columnDefinitionList":[
+    {
+      "index": 0,
+      "name": "Model",
+      "isRequired": false,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 1,
+      "name": "Part Number",
+      "isRequired": true,
+      "isUnique": true,
+      "type": "string"
+    },
+    {
+      "index": 2,
+      "name": "Description",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 3,
+      "name": "Count Factor",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "double"
+    },
+    {
+      "index": 4,
+      "name": "Classification",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "partClassification"
+    },
+    {
+      "index": 5,
+      "name": "Unit of Measure",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 6,
+      "name": "Alternate Parts",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 7,
+      "name": "Life Limit Unit",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "lifeLimitUnit"
+    },
+    {
+      "index": 8,
+      "name": "Life Limit",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "long"
+    }
+  ]
+}

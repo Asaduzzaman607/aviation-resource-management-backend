@@ -1,0 +1,26 @@
+{
+  "headerSize": 3,
+  "columnDefinitionList": [
+    {
+      "index": 0,
+      "name": "TaskNo",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 1,
+      "name": "PartNo",
+      "isRequired": true,
+      "isUnique": false,
+      "type": "string"
+    },
+    {
+      "index": 2,
+      "name": "Quantity",
+      "isRequired": false,
+      "isUnique": false,
+      "type": "long"
+    }
+  ]
+}

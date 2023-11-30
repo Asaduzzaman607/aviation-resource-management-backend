@@ -1,0 +1,25 @@
+{
+  "companyId": 1,
+  "designations": [
+    {
+      "id": 1,
+      "sectionId": 3,
+      "name": "designation1"
+    },
+    {
+      "id": 2,
+      "sectionId": 1,
+      "name": "designation2"
+    },
+    {
+      "id": 3,
+      "sectionId": 2,
+      "name": "designation3"
+    },
+    {
+      "id": 4,
+      "sectionId": 4,
+      "name": "designation4"
+    }
+  ]
+}
